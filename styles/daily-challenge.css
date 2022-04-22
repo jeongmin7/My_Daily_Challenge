@@ -1,14 +1,34 @@
-body{
-    margin: 50px;
+
+main {
+  border: 5px solid rgb(44,44,44);
+  background-color: #e4775b;
+  border-radius: 8px;
+  box-shadow: 1px 1px 8px rgba(0,0,0,0.3);
+  width: 800px;
+  margin: 200px auto 72px auto;
+  padding: 24px;
+
+}
+span {
+  color: rgb(62,2,2);
+}
+body h1 {
+  color: #1c1d1f;
+  font-size: 30px;
 }
 img {
-    width: 200px;
-    height: 200px;
-    border-radius: 100px;
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  border: 5px solid rgb(44,44,44); 
+  margin-top: -129px; /*padding 24px+ marign5px+ img height의 반 100*/
+}
+a{
+    color: rgb(73,29,50);
 }
 
-#todays-challenge{
-    color: rgb(170,96,83);
-    font-weight: bold;
-    font-size: 52px;
+#todays-challenge {
+  color: #4e3c3d;
+  font-weight: bold;
+  font-size: 52px;
 }
