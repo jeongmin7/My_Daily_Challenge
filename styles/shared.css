@@ -1,7 +1,12 @@
+header p{
+    margin-bottom: 36px;
+}
+
 body{
     text-align: center;
     background-color: rgb(233, 215, 207);
     color: rgb(83, 75, 75);
+    margin: 50px;
 }
 
 h1{
@@ -10,7 +15,7 @@ h1{
 }
 p{
     font-family: 'Fira Sans',sans-serif;
-    
+    font-size: 24px;
 }
 a{
     font-family: 'Fira Sans',sans-serif;
@@ -20,3 +25,6 @@ a{
 a:hover{
     text-decoration: underline;
 }
+ /* #description{
+     margin-bottom: 36px;
+ } */
